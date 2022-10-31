@@ -10,6 +10,8 @@ This project is intended to accompany the [Checkmarx Developer Workshops](https:
 
 As you may have gathered, this app isn't totally secure... actually far from it.  We use this source code to illustrate features, capabilities, and concepts within our Checkmarx workshops.
 
+Note that if this application is run, this Java application can result in system crashes as a result of memory leaks, deadlock, JVM crashes, etc. In these labs, we are only using Checkmarx solutions that scan source code, thus there is no reason or need to run this project and __it is not recommended to do so__. If you do wish to run the project, do so at your own risk. It is HIGHLY recommended you do so in a sandbox environment (e.g. within a VM)
+
     
 :clock4: For more detail
 -
